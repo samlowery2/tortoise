@@ -1,0 +1,24 @@
+/* "Tamming" Box Model With Reset */
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width:960px;
+}
+
+
+/*Header Section*/
+
+.header {
+  margin-top: 1rem;
+  background-color: cadetblue;
+  color: white;
+
+
+}
